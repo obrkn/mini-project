@@ -1,0 +1,83 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f8f8f8;
+}
+
+main {
+  padding: 20px;
+  max-width: 960px;
+  margin: auto;
+}
+
+h1 {
+  text-align: center;
+  color: #333;
+}
+
+.city {
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.city-img {
+  height: 280px;
+  max-width: 420px;
+  object-fit: cover;
+  margin-top: 10px;
+}
+
+.flex {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+#toronto {
+  background-color: #ace1af;
+}
+
+#montreal {
+  background-color: #ada397;
+}
+
+#vancouver {
+  background-color: #86a8e7;
+}
+
+#calgary {
+  background-color: #d0b078;
+}
+
+#edmonton {
+  background-color: #f9cb9c;
+}
+
+#footer {
+  background-color: #ccc;
+  padding: 60px 30px;
+}
+
+h2 {
+  color: #333;
+}
+
+p {
+  color: #666;
+}
+
+@media only screen and (max-width: 600px) {
+  body {
+      padding: 10px;
+  }
+
+  .city {
+      padding: 10px;
+  }
+
+  .city-img {
+      height: 200px;
+      max-width: 300px;
+  }
+}
